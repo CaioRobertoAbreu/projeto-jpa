@@ -15,7 +15,7 @@ public class Cliente {
 	private Integer id;
 
 	private String nome;
-	private String endereço;
+	private String endereco;
 	private String profissao;
 
 	@JoinColumn(unique = true)
@@ -46,12 +46,12 @@ public class Cliente {
 		this.nome = nome;
 	}
 
-	public String getEndereço() {
-		return endereço;
+	public String getEndereco() {
+		return endereco;
 	}
 
-	public void setEndereço(String endereço) {
-		this.endereço = endereço;
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
 	}
 
 	public String getProfissao() {

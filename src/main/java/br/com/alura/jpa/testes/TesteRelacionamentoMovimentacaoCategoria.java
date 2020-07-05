@@ -24,7 +24,7 @@ public class TesteRelacionamentoMovimentacaoCategoria {
 		
 		Movimentacao movimentacao = new Movimentacao();
 		movimentacao.setData(LocalDateTime.now());
-		movimentacao.setDescricao("Viagem à Salvador");
+		movimentacao.setDescricao("Viagem a Salvador");
 		movimentacao.setConta(conta);
 		movimentacao.setTipoMovimentacao(TipoMovimentacao.SAIDA);
 		movimentacao.setValor(new BigDecimal(700.));
@@ -32,7 +32,7 @@ public class TesteRelacionamentoMovimentacaoCategoria {
 		
 		Movimentacao movimentacao2 = new Movimentacao();
 		movimentacao2.setData(LocalDateTime.now());
-		movimentacao2.setDescricao("Viagem à Minas Gerais");
+		movimentacao2.setDescricao("Viagem a Minas Gerais");
 		movimentacao2.setConta(conta);
 		movimentacao2.setTipoMovimentacao(TipoMovimentacao.SAIDA);
 		movimentacao2.setValor(new BigDecimal(500.));
